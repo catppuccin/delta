@@ -14,13 +14,13 @@
 	line-numbers-plus-style = "bold #{{green}}"
 	line-numbers-right-style = "#{{overlay0}}"
 	line-numbers-zero-style = "#{{overlay0}}"
-	# 40% red 60% base
-	minus-emph-style = "bold syntax #{{mix red base 0.4}}"
-	# 20% red 80% base
-	minus-style = "syntax #{{mix red base 0.2}}"
-	# 40% green 60% base
-	plus-emph-style = "bold syntax #{{mix green base 0.4}}"
-	# 20% green 80% base
-	plus-style = "syntax #{{mix green base 0.2}}"
+	# 25% red 75% base
+	minus-emph-style = "bold syntax #{{mix red base 0.25}}"
+	# 10% red 90% base
+	minus-style = "syntax #{{mix red base 0.1}}"
+	# 25% green 75% base
+	plus-emph-style = "bold syntax #{{mix green base 0.25}}"
+	# 10% green 90% base
+	plus-style = "syntax #{{mix green base 0.1}}"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin-{{flavor}}"
