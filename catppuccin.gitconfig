@@ -22,6 +22,11 @@
 	plus-emph-style = "bold syntax #c3ddc3"
 	# 10% green 90% base
 	plus-style = "syntax #dee8e0"
+	map-styles = \
+		bold purple => syntax "#d6c4f4", \
+		bold blue => syntax "#bbcff5", \
+		bold cyan => syntax "#b4dff2", \
+		bold yellow => syntax "#ebd9bf"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin-latte"
 [delta "catppuccin-frappe"]
@@ -48,6 +53,11 @@
 	plus-emph-style = "bold syntax #4e5c57"
 	# 10% green 90% base
 	plus-style = "syntax #3c444e"
+	map-styles = \
+		bold purple => syntax "#574f6f", \
+		bold blue => syntax "#475271", \
+		bold cyan => syntax "#4b5c6b", \
+		bold yellow => syntax "#5d5a59"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin-frappe"
 [delta "catppuccin-macchiato"]
@@ -74,6 +84,11 @@
 	plus-emph-style = "bold syntax #455552"
 	# 10% green 90% base
 	plus-style = "syntax #313943"
+	map-styles = \
+		bold purple => syntax "#4d4569", \
+		bold blue => syntax "#3e4868", \
+		bold cyan => syntax "#3f5365", \
+		bold yellow => syntax "#585253"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin-macchiato"
 [delta "catppuccin-mocha"]
@@ -100,5 +115,10 @@
 	plus-emph-style = "bold syntax #40504b"
 	# 10% green 90% base
 	plus-style = "syntax #2c333a"
+	map-styles = \
+		bold purple => syntax "#494060", \
+		bold blue => syntax "#394361", \
+		bold cyan => syntax "#384d5e", \
+		bold yellow => syntax "#544f4e"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin-mocha"

@@ -23,6 +23,11 @@
 	plus-emph-style = "bold syntax #{{mix green base 0.25}}"
 	# 10% green 90% base
 	plus-style = "syntax #{{mix green base 0.1}}"
+	map-styles = \
+		bold purple => syntax "#{{mix mauve base 0.25}}", \
+		bold blue => syntax "#{{mix blue base 0.25}}", \
+		bold cyan => syntax "#{{mix sky base 0.25}}", \
+		bold yellow => syntax "#{{mix yellow base 0.25}}"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin-{{flavor}}"
 {{/each}}
