@@ -36,11 +36,11 @@
 
 ## Usage
 
-Include the desired flavour's file in your gitconfig file and set it as delta's theme like so:
+Include the themes in your gitconfig file and set your desired flavor as delta's theme like so:
 
 ```gitconfig
 [include]
-	path = PATH/TO/delta/themes/<flavour>.gitconfig
+	path = PATH/TO/delta/themes/catppuccin.gitconfig
 
 [delta]
 	features = catppuccin-<flavour>
