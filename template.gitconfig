@@ -29,5 +29,5 @@
 		bold cyan => syntax "#{{mix sky base 0.25}}", \
 		bold yellow => syntax "#{{mix yellow base 0.25}}"
 	# Should match the name of the bat theme
-	syntax-theme = "Catppuccin-{{flavor}}"
+	syntax-theme = "Catppuccin {{titlecase flavor}}"
 {{/each}}
