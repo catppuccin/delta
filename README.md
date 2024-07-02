@@ -36,6 +36,9 @@
 
 ## Usage
 
+> [!IMPORTANT]
+> The [catppuccin/bat](https://github.com/catppuccin/bat) theme is a prerequisite for this port. Make sure to install it first!
+
 Include the themes in your gitconfig file and set your desired flavor as delta's theme like so:
 
 ```gitconfig
@@ -45,6 +48,7 @@ Include the themes in your gitconfig file and set your desired flavor as delta's
 [delta]
 	features = catppuccin-<flavour>
 ```
+
 ## 💝 Thanks to
 
 - [Anomalocaridid](https://github.com/Anomalocaridid)
