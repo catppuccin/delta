@@ -39,5 +39,6 @@ whiskers:
 		bold yellow => syntax "{{ palette.yellow | mix(color=palette.base, amount=0.25) | get(key="hex") }}"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin {{ identifier | capitalize }}"
-
+{% if not loop.last %}
+{% endif -%}
 {% endfor -%}
