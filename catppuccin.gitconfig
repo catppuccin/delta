@@ -29,6 +29,7 @@
 		bold yellow => syntax "#ebd9bf"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin Latte"
+
 [delta "catppuccin-frappe"]
 	blame-palette = "#303446 #292c3c #232634 #414559 #51576d"
 	commit-decoration-style = "box ul"
@@ -60,6 +61,7 @@
 		bold yellow => syntax "#5d5958"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin Frappe"
+
 [delta "catppuccin-macchiato"]
 	blame-palette = "#24273a #1e2030 #181926 #363a4f #494d64"
 	commit-decoration-style = "box ul"
@@ -91,6 +93,7 @@
 		bold yellow => syntax "#575253"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin Macchiato"
+
 [delta "catppuccin-mocha"]
 	blame-palette = "#1e1e2e #181825 #11111b #313244 #45475a"
 	commit-decoration-style = "box ul"
