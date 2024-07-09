@@ -10,35 +10,35 @@ whiskers:
 
 [delta "catppuccin-{{ identifier }}"]
 	blame-palette = "{{ palette.base.hex }} {{ palette.mantle.hex }} {{ palette.crust.hex }} {{ palette.surface0.hex }} {{ palette.surface1.hex }}"
-	commit-decoration-style = "box ul"
+	commit-decoration-style = box ul
 	{{ if(cond=flavor.dark, t="dark", f="light") }} = true
 	file-decoration-style = "{{ palette.text.hex }}"
 	file-style = "{{ palette.text.hex }}"
-	hunk-header-decoration-style = "box ul"
-	hunk-header-file-style = "bold"
-	hunk-header-line-number-style = "bold {{ palette.subtext0.hex }}"
-	hunk-header-style = "file line-number syntax"
+	hunk-header-decoration-style = box ul
+	hunk-header-file-style = bold
+	hunk-header-line-number-style = bold "{{ palette.subtext0.hex }}"
+	hunk-header-style = file line-number syntax
 	line-numbers = true
 	line-numbers-left-style = "{{ palette.overlay0.hex }}"
-	line-numbers-minus-style = "bold {{ palette.red.hex }}"
-	line-numbers-plus-style = "bold {{ palette.green.hex }}"
+	line-numbers-minus-style = bold "{{ palette.red.hex }}"
+	line-numbers-plus-style = bold "{{ palette.green.hex }}"
 	line-numbers-right-style = "{{ palette.overlay0.hex }}"
 	line-numbers-zero-style = "{{ palette.overlay0.hex }}"
 	# 25% red 75% base
-	minus-emph-style = "bold syntax {{ palette.red | mix(color=palette.base, amount=0.25) | get(key="hex") }}"
+	minus-emph-style = bold syntax "{{ palette.red | mix(color=palette.base, amount=0.25) | get(key="hex") }}"
 	# 10% red 90% base
-	minus-style = "syntax {{ palette.red | mix(color=palette.base, amount=0.1) | get(key="hex") }}"
+	minus-style = syntax "{{ palette.red | mix(color=palette.base, amount=0.1) | get(key="hex") }}"
 	# 25% green 75% base
-	plus-emph-style = "bold syntax {{ palette.green | mix(color=palette.base, amount=0.25) | get(key="hex") }}"
+	plus-emph-style = bold syntax "{{ palette.green | mix(color=palette.base, amount=0.25) | get(key="hex") }}"
 	# 10% green 90% base
-	plus-style = "syntax {{ palette.green | mix(color=palette.base, amount=0.1) | get(key="hex") }}"
+	plus-style = syntax "{{ palette.green | mix(color=palette.base, amount=0.1) | get(key="hex") }}"
 	map-styles = \
 		bold purple => syntax "{{ palette.mauve | mix(color=palette.base, amount=0.25) | get(key="hex") }}", \
 		bold blue => syntax "{{ palette.blue | mix(color=palette.base, amount=0.25) | get(key="hex") }}", \
 		bold cyan => syntax "{{ palette.sky | mix(color=palette.base, amount=0.25) | get(key="hex") }}", \
 		bold yellow => syntax "{{ palette.yellow | mix(color=palette.base, amount=0.25) | get(key="hex") }}"
 	# Should match the name of the bat theme
-	syntax-theme = "Catppuccin {{ identifier | capitalize }}"
+	syntax-theme = Catppuccin {{ identifier | capitalize }}
 {% if not loop.last %}
 {% endif -%}
 {% endfor -%}
