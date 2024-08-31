@@ -18,7 +18,6 @@ whiskers:
 	hunk-header-file-style = bold
 	hunk-header-line-number-style = bold "{{ palette.subtext0.hex }}"
 	hunk-header-style = file line-number syntax
-	line-numbers = true
 	line-numbers-left-style = "{{ palette.overlay0.hex }}"
 	line-numbers-minus-style = bold "{{ palette.red.hex }}"
 	line-numbers-plus-style = bold "{{ palette.green.hex }}"
