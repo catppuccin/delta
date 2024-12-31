@@ -10,11 +10,11 @@ whiskers:
 
 [delta "catppuccin-{{ identifier }}"]
 	blame-palette = "{{ palette.base.hex }} {{ palette.mantle.hex }} {{ palette.crust.hex }} {{ palette.surface0.hex }} {{ palette.surface1.hex }}"
-	commit-decoration-style = "{{ palette.overlay0.hex }}" bold box ul
+	commit-decoration-style = "{{ palette.overlay0.hex }}" bold ol
 	{{ if(cond=flavor.dark, t="dark", f="light") }} = true
-	file-decoration-style = "{{ palette.overlay0.hex }}"
+	file-decoration-style = "{{ palette.overlay0.hex }}" ol
 	file-style = "{{ palette.text.hex }}"
-	hunk-header-decoration-style = "{{ palette.overlay0.hex }}" box ul
+	hunk-header-decoration-style = "{{ palette.overlay0.hex }}" box
 	hunk-header-file-style = bold
 	hunk-header-line-number-style = bold "{{ palette.subtext0.hex }}"
 	hunk-header-style = file line-number syntax
