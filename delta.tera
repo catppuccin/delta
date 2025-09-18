@@ -23,19 +23,19 @@ whiskers:
 	line-numbers-plus-style = bold "{{ palette.green.hex }}"
 	line-numbers-right-style = "{{ palette.overlay0.hex }}"
 	line-numbers-zero-style = "{{ palette.overlay0.hex }}"
-	# 25% red 75% base
-	minus-emph-style = bold syntax "{{ palette.red | mix(color=palette.base, amount=0.25) | get(key="hex") }}"
-	# 10% red 90% base
-	minus-style = syntax "{{ palette.red | mix(color=palette.base, amount=0.1) | get(key="hex") }}"
-	# 25% green 75% base
-	plus-emph-style = bold syntax "{{ palette.green | mix(color=palette.base, amount=0.25) | get(key="hex") }}"
-	# 10% green 90% base
-	plus-style = syntax "{{ palette.green | mix(color=palette.base, amount=0.1) | get(key="hex") }}"
+	# 35% red 65% base
+	minus-emph-style = bold syntax "{{ palette.red | mix(color=palette.base, amount=0.35) | get(key="hex") }}"
+	# 20% red 80% base
+	minus-style = syntax "{{ palette.red | mix(color=palette.base, amount=0.2) | get(key="hex") }}"
+	# 35% green 65% base
+	plus-emph-style = bold syntax "{{ palette.green | mix(color=palette.base, amount=0.35) | get(key="hex") }}"
+	# 20% green 80% base
+	plus-style = syntax "{{ palette.green | mix(color=palette.base, amount=0.2) | get(key="hex") }}"
 	map-styles = \
-		bold purple => syntax "{{ palette.mauve | mix(color=palette.base, amount=0.25) | get(key="hex") }}", \
-		bold blue => syntax "{{ palette.blue | mix(color=palette.base, amount=0.25) | get(key="hex") }}", \
-		bold cyan => syntax "{{ palette.sky | mix(color=palette.base, amount=0.25) | get(key="hex") }}", \
-		bold yellow => syntax "{{ palette.yellow | mix(color=palette.base, amount=0.25) | get(key="hex") }}"
+		bold purple => syntax "{{ palette.mauve | mix(color=palette.base, amount=0.35) | get(key="hex") }}", \
+		bold blue => syntax "{{ palette.blue | mix(color=palette.base, amount=0.35) | get(key="hex") }}", \
+		bold cyan => syntax "{{ palette.sky | mix(color=palette.base, amount=0.35) | get(key="hex") }}", \
+		bold yellow => syntax "{{ palette.yellow | mix(color=palette.base, amount=0.35) | get(key="hex") }}"
 	# Should match the name of the bat theme
 	syntax-theme = Catppuccin {{ identifier | capitalize }}
 {% if not loop.last %}

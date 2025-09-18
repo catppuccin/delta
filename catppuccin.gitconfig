@@ -13,19 +13,19 @@
 	line-numbers-plus-style = bold "#40a02b"
 	line-numbers-right-style = "#9ca0b0"
 	line-numbers-zero-style = "#9ca0b0"
-	# 25% red 75% base
-	minus-emph-style = bold syntax "#e8b9c6"
-	# 10% red 90% base
-	minus-style = syntax "#ecdae2"
-	# 25% green 75% base
-	plus-emph-style = bold syntax "#c3ddc3"
-	# 10% green 90% base
-	plus-style = syntax "#dee8e0"
+	# 35% red 65% base
+	minus-emph-style = bold syntax "#e5a2b3"
+	# 20% red 80% base
+	minus-style = syntax "#e9c4cf"
+	# 35% green 65% base
+	plus-emph-style = bold syntax "#b2d5ae"
+	# 20% green 80% base
+	plus-style = syntax "#cce1cd"
 	map-styles = \
-		bold purple => syntax "#d5c3f4", \
-		bold blue => syntax "#bbcff5", \
-		bold cyan => syntax "#b4def1", \
-		bold yellow => syntax "#ebd9bf"
+		bold purple => syntax "#cbb1f2", \
+		bold blue => syntax "#a6c1f5", \
+		bold cyan => syntax "#9dd7ef", \
+		bold yellow => syntax "#eacfa9"
 	# Should match the name of the bat theme
 	syntax-theme = Catppuccin Latte
 
@@ -44,19 +44,19 @@
 	line-numbers-plus-style = bold "#a6d189"
 	line-numbers-right-style = "#737994"
 	line-numbers-zero-style = "#737994"
-	# 25% red 75% base
-	minus-emph-style = bold syntax "#5e4855"
-	# 10% red 90% base
-	minus-style = syntax "#433c4c"
-	# 25% green 75% base
-	plus-emph-style = bold syntax "#4e5b56"
-	# 10% green 90% base
-	plus-style = syntax "#3c444d"
+	# 35% red 65% base
+	minus-emph-style = bold syntax "#704f5c"
+	# 20% red 80% base
+	minus-style = syntax "#544452"
+	# 35% green 65% base
+	plus-emph-style = bold syntax "#596b5e"
+	# 20% green 80% base
+	plus-style = syntax "#475453"
 	map-styles = \
-		bold purple => syntax "#574f6e", \
-		bold blue => syntax "#475270", \
-		bold cyan => syntax "#4a5b6b", \
-		bold yellow => syntax "#5d5958"
+		bold purple => syntax "#66597e", \
+		bold blue => syntax "#505d81", \
+		bold cyan => syntax "#546b7a", \
+		bold yellow => syntax "#6f6860"
 	# Should match the name of the bat theme
 	syntax-theme = Catppuccin Frappe
 
@@ -75,19 +75,19 @@
 	line-numbers-plus-style = bold "#a6da95"
 	line-numbers-right-style = "#6e738d"
 	line-numbers-zero-style = "#6e738d"
-	# 25% red 75% base
-	minus-emph-style = bold syntax "#563f51"
-	# 10% red 90% base
-	minus-style = syntax "#383143"
-	# 25% green 75% base
-	plus-emph-style = bold syntax "#455450"
-	# 10% green 90% base
-	plus-style = syntax "#313943"
+	# 35% red 65% base
+	minus-emph-style = bold syntax "#6a485a"
+	# 20% red 80% base
+	minus-style = syntax "#4c3a4c"
+	# 35% green 65% base
+	plus-emph-style = bold syntax "#51655a"
+	# 20% green 80% base
+	plus-style = syntax "#3e4b4c"
 	map-styles = \
-		bold purple => syntax "#4d4569", \
-		bold blue => syntax "#3e4868", \
-		bold cyan => syntax "#3f5364", \
-		bold yellow => syntax "#575253"
+		bold purple => syntax "#5c517c", \
+		bold blue => syntax "#47557b", \
+		bold cyan => syntax "#4a6475", \
+		bold yellow => syntax "#6a635d"
 	# Should match the name of the bat theme
 	syntax-theme = Catppuccin Macchiato
 
@@ -106,18 +106,18 @@
 	line-numbers-plus-style = bold "#a6e3a1"
 	line-numbers-right-style = "#6c7086"
 	line-numbers-zero-style = "#6c7086"
-	# 25% red 75% base
-	minus-emph-style = bold syntax "#53394c"
-	# 10% red 90% base
-	minus-style = syntax "#34293a"
-	# 25% green 75% base
-	plus-emph-style = bold syntax "#404f4a"
-	# 10% green 90% base
-	plus-style = syntax "#2c3239"
+	# 35% red 65% base
+	minus-emph-style = bold syntax "#694559"
+	# 20% red 80% base
+	minus-style = syntax "#493447"
+	# 35% green 65% base
+	plus-emph-style = bold syntax "#4e6356"
+	# 20% green 80% base
+	plus-style = syntax "#394545"
 	map-styles = \
-		bold purple => syntax "#494060", \
-		bold blue => syntax "#384361", \
-		bold cyan => syntax "#384d5d", \
-		bold yellow => syntax "#544f4e"
+		bold purple => syntax "#5b4e74", \
+		bold blue => syntax "#445375", \
+		bold cyan => syntax "#446170", \
+		bold yellow => syntax "#6b635b"
 	# Should match the name of the bat theme
 	syntax-theme = Catppuccin Mocha
